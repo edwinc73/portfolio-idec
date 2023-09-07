@@ -1,0 +1,57 @@
+nav{
+  color: white;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 240px;
+}
+
+.nav-link-icon{
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.logo{
+  font-size: 30px;
+}
+
+.nav-link{
+  opacity: 0.5;
+}
+
+nav ul{
+  display: flex;
+  gap: 72px;
+}
+
+.nav-link, ul a, ul a li{
+  color: white;
+  text-decoration: none;
+  font-size: 25.22;
+}
+
+.active-tab{
+  opacity: 1;
+  position: relative;
+}
+
+.active-tab::after{
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  width: 40px;
+  height: 6px;
+  background-color: white;
+  display: block;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-contact-links i{
+  color: white;
+  opacity: 1;
+  font-size: 26px;
+}
