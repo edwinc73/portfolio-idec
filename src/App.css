@@ -1,3 +1,13 @@
 *{
   font-family: 'Red Hat Display', sans-serif;
 }
+
+.website-background{
+  background-color: var(--bg-base-color);
+}
+
+
+.website-background::after{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
