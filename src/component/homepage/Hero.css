@@ -1,0 +1,11 @@
+*{
+  color: white;
+}
+
+.hero-container{
+  height: 100vh;
+}
+
+.hero-image{
+  width: 100%;
+}

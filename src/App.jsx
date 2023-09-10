@@ -11,11 +11,23 @@ import Contact from "../src/component/contactPage/Contact"
 function App() {
 
   document.addEventListener("mousemove", e => {
-    const xPosition = e.pageX
-    const yPosition = e.pageY
+    const xPosition = e.clientX
+    const yPosition = e.clientY
     const target = document.querySelector("#mouse-event")
     target.style.top = `${yPosition}px`
     target.style.left = `${xPosition}px`
+  })
+
+  var prevScrollpos = window.scrollY;
+
+  document.addEventListener("scroll",e =>{
+    var currentScrollPos = window.scrollY;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("nav-bar").classList.remove("hidden");
+    } else {
+      document.getElementById("nav-bar").classList.add("hidden");
+    }
+    prevScrollpos = currentScrollPos;
   })
 
   return(
@@ -28,7 +40,6 @@ function App() {
         <Route path="/art" element={<Art />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
 
       <div id="mouse-event-container">
         <div id="mouse-event"></div>

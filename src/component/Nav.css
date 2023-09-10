@@ -1,10 +1,14 @@
 nav{
+  width: 100%;
   color: white;
   font-weight: 900;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 34px 240px;
+  position: fixed;
+  top: 0;
+  transition: 2.2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .nav-link-icon{
@@ -59,4 +63,27 @@ nav ul{
   color: white;
   opacity: 1;
   font-size: 26px;
+}
+
+.hidden{
+  transform: translateY(-113px);
+}
+
+.nav-bg{
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  /* background-color: white; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 113px;
+}
+
+.blur{
+  z-index: -1;
+  -webkit-mask-image: linear-gradient(to top,rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 1));
+  mask-image: linear-gradient(to top,rgba(0, 0, 0, 0)00%, rgba(0, 0, 0, 1));
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }

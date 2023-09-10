@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 export default function Nav(){
   return(
     <>
-      <nav>
+      <nav id="nav-bar">
       <Link to="/"><div className="logo">ID: E.C</div></ Link>
         <ul>
           <Link to="/"><li className="nav-link active-tab">Home</li></Link>
@@ -18,6 +18,7 @@ export default function Nav(){
         <ul className="nav-contact-links">
           <a href="#"><li className="nav-icon"><i className="fa fa-github-square" aria-hidden="true"></i></li></a>
         </ul>
+        <div className="nav-bg blur"></div>
       </nav>
     </>
   )
