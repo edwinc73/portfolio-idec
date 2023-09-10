@@ -2,12 +2,17 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 
-.website-background{
-  background-color: var(--bg-base-color);
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
-.website-background::after{
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+.bg{
+  z-index: -2;
+  background-image: url(../src/assets/blur-bg.svg);
+  background-color: var(--bg-base-color);
+  background-repeat: repeat;
+  background-size: 150vw;
+  background-position: -50vh -50vw;
 }

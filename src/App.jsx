@@ -5,9 +5,10 @@ import Nav from "../src/component/Nav"
 function App() {
   return(
     <>
-      <main className="website-background">
+      <main>
         <Nav />
       </main>
+      <div className="bg"></div>
     </>
   )
 }
