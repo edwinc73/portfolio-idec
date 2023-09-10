@@ -14,7 +14,7 @@ export default function Nav(){
           <a href="#"><li className="nav-link">Contact</li></a>
         </ul>
         <ul className="nav-contact-links">
-          <a href="#"><li className="nav-icon"><i class="fa fa-github-square" aria-hidden="true"></i></li></a>
+          <a href="#"><li className="nav-icon"><i className="fa fa-github-square" aria-hidden="true"></i></li></a>
         </ul>
       </nav>
     </>
