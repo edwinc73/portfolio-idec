@@ -1,0 +1,15 @@
+.stack-text-container p{
+  width: 550px;
+  margin: 0 auto;
+}
+
+.column-items img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.column-items{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 1fr 1fr);
+}
