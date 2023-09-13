@@ -20,7 +20,7 @@ export default function Home(){
               </div>
             </div>
               <div className="col-6 no-wrapper">
-                <img src="../../../public/001.png" alt="Hero Image" className="hero-image" />
+                <img src="/001.png" alt="Hero Image" className="hero-image" />
               </div>
         </div>
       </div>
@@ -29,18 +29,18 @@ export default function Home(){
           <h2 className="section-title">Tech stack</h2>
           <p>I am passionate about creating amazing digital experiences as such I invest my time in learning.</p>
         </div>
-        <div className="columns row w-100">
+        <div className="columns row">
           <div className="column">
             <div className="column-title text-center">
               <h2 className="light">Frontend</h2>
             </div>
             <div className="column-items">
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
             </div>
           </div>
           <div className="column">
@@ -48,9 +48,9 @@ export default function Home(){
               <h2 className="light">Design</h2>
             </div>
             <div className="column-items">
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
             </div>
           </div>
           <div className="column">
@@ -58,28 +58,40 @@ export default function Home(){
               <h2 className="light">General</h2>
             </div>
             <div className="column-items-2 d-flex">
-              <img src="../../../public/images.png" alt="" />
-              <img src="../../../public/images.png" alt="" />
+              <img src="/images.png" alt="" />
+              <img src="/images.png" alt="" />
             </div>
           </div>
         </div>
       </div>
       <div className="section-container">
         <div className="projects d-flex justify-content-center align-items-center">
-          <img src="../../../public/Mobile placeholder.png" alt="" />
+          <img src="/Mobile placeholder.png" alt="" />
           <div className="text-container">
-            <h2>Project Showcase</h2>
+            <h2 className="section-title">Project Showcase</h2>
             <p>Check out my projects, I have examples of wechat miniapp development and web applications.</p>
             <Button str ="My Projects" />
           </div>
         </div>
       </div>
       <div className="section-container">
-        <div className="row">
+        <div className="row about-container">
           <div className="col-6">
-
+            <h2 className="section-title">About me</h2>
+            <p className="text-container">I’m a developer from all over the globe, currently in Shanghai. As a graduate of Le Wagon coding bootcamp. My goal is to hone my craft and create captivating user experiences that seamlessly blend functionality and aesthetics. </p>
           </div>
-          <div className="col-6"></div>
+          <div className="col-6 history-container">
+            <ul className="history">
+              <h3>Brief history</h3>
+              <li><p>08-2023 // Graduating from LeWagon, Shanghai</p></li>
+              <li className="light"><p>03-2022 // English Teacher, Shanghai </p></li>
+              <li className="light"><p>04-2021 // Industrial Designer, Hong Kong </p></li>
+              <li className="light"><p>09-2020 // Graduating University, UK Newcastle </p></li>
+            </ul>
+          </div>
+        </div>
+        <div className="button-center">
+          <Button str="Resume"/>
         </div>
       </div>
     </div>

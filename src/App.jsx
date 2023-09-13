@@ -18,17 +18,17 @@ function App() {
     target.style.left = `${xPosition}px`
   })
 
-  var prevScrollpos = window.scrollY;
+  // var prevScrollpos = window.scrollY;
 
-  document.addEventListener("scroll",e =>{
-    var currentScrollPos = window.scrollY;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("nav-bar").classList.remove("hidden");
-    } else {
-      document.getElementById("nav-bar").classList.add("hidden");
-    }
-    prevScrollpos = currentScrollPos;
-  })
+  // document.addEventListener("scroll",e =>{
+  //   var currentScrollPos = window.scrollY;
+  //   if (prevScrollpos > currentScrollPos) {
+  //     document.getElementById("nav-bar").classList.remove("hidden");
+  //   } else {
+  //     document.getElementById("nav-bar").classList.add("hidden");
+  //   }
+  //   prevScrollpos = currentScrollPos;
+  // })
 
   return(
     <Router>
@@ -48,3 +48,5 @@ function App() {
 }
 
 export default App
+
+// add scroll locking js
