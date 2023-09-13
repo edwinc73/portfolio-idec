@@ -7,6 +7,7 @@ import Home from "../src/pages/homepage/Home"
 import Work from "./pages/workpage/Work"
 import Art from "./pages/artPage/Art"
 import Contact from "../src/pages/contactPage/Contact"
+import Footer from "../src/component/Footer/Footer"
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <div id="mouse-event"></div>
       </div>
       <div className="bg"></div>
+      <Footer />
     </Router>
   )
 }

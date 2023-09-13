@@ -2,7 +2,7 @@
   font-family: 'Red Hat Display', sans-serif;
 }
 
-h1, h2, button{
+h1, h2, button, h3{
   font-weight: 900;
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -21,6 +21,12 @@ h2{
   font-size: 30px;
   line-height: 150%; /* 45px */
   font-family: 'Red Hat Display', sans-serif;
+}
+
+
+h3{
+  font-size: 25.216px;
+  line-height: 165%;
 }
 
 p{
@@ -46,6 +52,10 @@ button{
   color: white;
   letter-spacing: 1px;
   position: relative;
+}
+
+.text-blk{
+  color: var(--bg-base-color);
 }
 
 button::after{

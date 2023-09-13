@@ -63,7 +63,7 @@ padding-top: 8px;
   margin: 0 auto;
 }
 
-.columns, .about-container{
+.columns, .about-container, .art-container{
   width: 1200px;
   margin: 0 auto;
 }
@@ -132,4 +132,12 @@ padding-top: 8px;
 .button-center{
   margin: 0 auto;
   width: fit-content;
+}
+
+.art-container .text-container{
+  padding-left: 120px;
+}
+
+.home-art-cards{
+  max-width: 650px;
 }

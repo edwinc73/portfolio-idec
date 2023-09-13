@@ -94,6 +94,18 @@ export default function Home(){
           <Button str="Resume"/>
         </div>
       </div>
+      <div className="section-container">
+        <div className="art-container row">
+          <div className="col-6">
+            <img src="/art-cards.png" alt="ai-art-cards" className="home-art-cards" />
+          </div>
+          <div className="text-container col-6">
+            <h2 className="section-title">I mess around <br />with AI art</h2>
+            <p>As well as creating beautiful digital experiences, I enjoy creating awesome artwork!</p>
+            <Button str="Playground" />
+          </div>
+        </div>
+      </div>
     </div>
     </>
   )
