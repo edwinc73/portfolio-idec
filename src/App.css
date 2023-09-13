@@ -4,6 +4,7 @@
 
 h1, h2, button{
   font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 h1{
@@ -12,15 +13,20 @@ h1{
   font-size: 90px;
   line-height: 120%; /* 108px */
   letter-spacing: -0.5px;
+  font-family: 'Red Hat Display', sans-serif;
+
 }
 
 h2{
   font-size: 30px;
   line-height: 150%; /* 45px */
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 p{
   font-size: 23.333px;
+  font-family: 'Red Hat Display', sans-serif;
+
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 35px */

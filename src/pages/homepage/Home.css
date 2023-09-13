@@ -97,3 +97,11 @@ padding-top: 8px;
   gap: 15px;
   justify-content: center;
 }
+
+.projects{
+  gap: 170px;
+}
+
+.projects p{
+  width: 550px;
+}

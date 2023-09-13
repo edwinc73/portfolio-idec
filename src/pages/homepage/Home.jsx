@@ -1,5 +1,6 @@
 import React from "react"
 import "../homepage/Home.css"
+import Button from "../../component/Button/Button"
 
 export default function Home(){
   return(
@@ -15,7 +16,7 @@ export default function Home(){
                   <h2 className="light">AI artist by night.</h2>
                 </div>
                 <p>LeWagon Bootcamp Alumni, specializing in frontend development and WeChat Mini Program development</p>
-                <button>My Projects <img src="../../../public/cta-arrow.svg" alt="" /></button>
+                <Button str ="My Projects" />
               </div>
             </div>
               <div className="col-6 no-wrapper">
@@ -24,7 +25,7 @@ export default function Home(){
         </div>
       </div>
       <div className="section-container">
-        <div className="stack-text-container text-center">
+        <div className="stack-text-container w-100 text-center">
           <h2 className="section-title">Tech stack</h2>
           <p>I am passionate about creating amazing digital experiences as such I invest my time in learning.</p>
         </div>
@@ -60,6 +61,16 @@ export default function Home(){
               <img src="../../../public/images.png" alt="" />
               <img src="../../../public/images.png" alt="" />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-container">
+        <div className="projects d-flex justify-content-center align-items-center">
+          <img src="../../../public/Mobile placeholder.png" alt="" />
+          <div className="text-container">
+            <h2>Project Showcase</h2>
+            <p>Check out my projects, I have examples of wechat miniapp development and web applications.</p>
+            <Button str ="My Projects" />
           </div>
         </div>
       </div>
