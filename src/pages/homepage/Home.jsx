@@ -74,6 +74,14 @@ export default function Home(){
           </div>
         </div>
       </div>
+      <div className="section-container">
+        <div className="row">
+          <div className="col-6">
+
+          </div>
+          <div className="col-6"></div>
+        </div>
+      </div>
     </div>
     </>
   )
